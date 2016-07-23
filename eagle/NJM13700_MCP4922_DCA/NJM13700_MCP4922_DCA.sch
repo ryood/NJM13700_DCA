@@ -18103,9 +18103,9 @@ DIN A4, landscape with location and doc. field</description>
 <instance part="C1" gate="G$1" x="76.2" y="99.06" rot="R90"/>
 <instance part="R3" gate="G$1" x="83.82" y="91.44" rot="R90"/>
 <instance part="AGND3" gate="VR1" x="83.82" y="81.28"/>
-<instance part="IC1" gate="A" x="114.3" y="101.6"/>
+<instance part="IC1" gate="B" x="114.3" y="101.6"/>
 <instance part="IC1" gate="P" x="231.14" y="93.98"/>
-<instance part="IC1" gate="B" x="200.66" y="93.98"/>
+<instance part="IC1" gate="A" x="200.66" y="93.98"/>
 <instance part="AGND4" gate="VR1" x="93.98" y="104.14" rot="R270"/>
 <instance part="R4" gate="G$1" x="134.62" y="88.9" rot="R90"/>
 <instance part="AGND5" gate="VR1" x="134.62" y="78.74"/>
@@ -18129,7 +18129,7 @@ DIN A4, landscape with location and doc. field</description>
 <instance part="R6" gate="1" x="93.98" y="53.34" rot="R270"/>
 <instance part="C3" gate="G$1" x="101.6" y="40.64"/>
 <instance part="AGND10" gate="VR1" x="101.6" y="27.94"/>
-<instance part="IC3" gate="A" x="127" y="55.88"/>
+<instance part="IC3" gate="B" x="127" y="55.88"/>
 <instance part="AGND11" gate="VR1" x="114.3" y="58.42" rot="R270"/>
 <instance part="R7" gate="G$1" x="109.22" y="53.34" rot="R180"/>
 <instance part="R8" gate="G$1" x="132.08" y="43.18" rot="R180"/>
@@ -18138,7 +18138,7 @@ DIN A4, landscape with location and doc. field</description>
 <attribute name="VALUE" x="149.86" y="55.88" size="1.778" layer="96" rot="MR180"/>
 </instance>
 <instance part="R9" gate="G$1" x="154.94" y="88.9" rot="R90"/>
-<instance part="IC3" gate="B" x="200.66" y="60.96"/>
+<instance part="IC3" gate="A" x="200.66" y="60.96"/>
 <instance part="IC3" gate="P" x="231.14" y="58.42"/>
 <instance part="AGND12" gate="VR1" x="185.42" y="45.72"/>
 <instance part="AGND13" gate="VR1" x="182.88" y="78.74"/>
@@ -18227,7 +18227,7 @@ DIN A4, landscape with location and doc. field</description>
 </segment>
 <segment>
 <pinref part="AGND4" gate="VR1" pin="AGND"/>
-<pinref part="IC1" gate="A" pin="-IN"/>
+<pinref part="IC1" gate="B" pin="-IN"/>
 <wire x1="96.52" y1="104.14" x2="99.06" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -18268,7 +18268,7 @@ DIN A4, landscape with location and doc. field</description>
 </segment>
 <segment>
 <pinref part="AGND11" gate="VR1" pin="AGND"/>
-<pinref part="IC3" gate="A" pin="+IN"/>
+<pinref part="IC3" gate="B" pin="+IN"/>
 <wire x1="116.84" y1="58.42" x2="119.38" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -18277,13 +18277,13 @@ DIN A4, landscape with location and doc. field</description>
 <wire x1="154.94" y1="83.82" x2="154.94" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC3" gate="B" pin="+IN"/>
+<pinref part="IC3" gate="A" pin="+IN"/>
 <pinref part="AGND12" gate="VR1" pin="AGND"/>
 <wire x1="193.04" y1="63.5" x2="185.42" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="185.42" y1="63.5" x2="185.42" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="B" pin="+IN"/>
+<pinref part="IC1" gate="A" pin="+IN"/>
 <wire x1="185.42" y1="91.44" x2="182.88" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="AGND13" gate="VR1" pin="AGND"/>
 <wire x1="182.88" y1="91.44" x2="182.88" y2="81.28" width="0.1524" layer="91"/>
@@ -18385,17 +18385,17 @@ DIN A4, landscape with location and doc. field</description>
 <wire x1="83.82" y1="96.52" x2="83.82" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="C1" gate="G$1" pin="-"/>
 <wire x1="83.82" y1="99.06" x2="81.28" y2="99.06" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="A" pin="+IN"/>
+<pinref part="IC1" gate="B" pin="+IN"/>
 <wire x1="83.82" y1="99.06" x2="99.06" y2="99.06" width="0.1524" layer="91"/>
 <junction x="83.82" y="99.06"/>
 </segment>
 </net>
 <net name="N$5" class="0">
 <segment>
-<pinref part="IC1" gate="A" pin="OUT"/>
+<pinref part="IC1" gate="B" pin="OUT"/>
 <wire x1="132.08" y1="101.6" x2="134.62" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="134.62" y1="101.6" x2="134.62" y2="96.52" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="A" pin="BUFF/IN"/>
+<pinref part="IC1" gate="B" pin="BUFF/IN"/>
 <wire x1="134.62" y1="96.52" x2="132.08" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="R4" gate="G$1" pin="2"/>
 <wire x1="134.62" y1="96.52" x2="134.62" y2="93.98" width="0.1524" layer="91"/>
@@ -18404,7 +18404,7 @@ DIN A4, landscape with location and doc. field</description>
 </net>
 <net name="N$6" class="0">
 <segment>
-<pinref part="IC1" gate="A" pin="BUFF/OUT"/>
+<pinref part="IC1" gate="B" pin="BUFF/OUT"/>
 <wire x1="132.08" y1="106.68" x2="142.24" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="R5" gate="G$1" pin="2"/>
 <wire x1="142.24" y1="106.68" x2="142.24" y2="93.98" width="0.1524" layer="91"/>
@@ -18596,7 +18596,7 @@ DIN A4, landscape with location and doc. field</description>
 <net name="N$10" class="0">
 <segment>
 <pinref part="R7" gate="G$1" pin="1"/>
-<pinref part="IC3" gate="A" pin="-IN"/>
+<pinref part="IC3" gate="B" pin="-IN"/>
 <wire x1="114.3" y1="53.34" x2="116.84" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="53.34" x2="119.38" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="53.34" x2="116.84" y2="43.18" width="0.1524" layer="91"/>
@@ -18607,7 +18607,7 @@ DIN A4, landscape with location and doc. field</description>
 </net>
 <net name="N$9" class="0">
 <segment>
-<pinref part="IC3" gate="A" pin="OUT"/>
+<pinref part="IC3" gate="B" pin="OUT"/>
 <pinref part="T1" gate="G$1" pin="B"/>
 <wire x1="134.62" y1="55.88" x2="142.24" y2="55.88" width="0.1524" layer="91"/>
 </segment>
@@ -18622,7 +18622,7 @@ DIN A4, landscape with location and doc. field</description>
 </net>
 <net name="N$12" class="0">
 <segment>
-<pinref part="IC1" gate="A" pin="AMP/BIAS"/>
+<pinref part="IC1" gate="B" pin="AMP/BIAS"/>
 <wire x1="99.06" y1="93.98" x2="96.52" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="93.98" x2="96.52" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="68.58" x2="147.32" y2="68.58" width="0.1524" layer="91"/>
@@ -18632,25 +18632,25 @@ DIN A4, landscape with location and doc. field</description>
 </net>
 <net name="N$16" class="0">
 <segment>
-<pinref part="IC3" gate="B" pin="-IN"/>
+<pinref part="IC3" gate="A" pin="-IN"/>
 <wire x1="193.04" y1="58.42" x2="190.5" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="58.42" x2="190.5" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="50.8" x2="210.82" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="210.82" y1="50.8" x2="210.82" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="IC3" gate="B" pin="OUT"/>
+<pinref part="IC3" gate="A" pin="OUT"/>
 <wire x1="210.82" y1="60.96" x2="208.28" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$14" class="0">
 <segment>
-<pinref part="IC1" gate="B" pin="-IN"/>
+<pinref part="IC1" gate="A" pin="-IN"/>
 <wire x1="185.42" y1="96.52" x2="182.88" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="182.88" y1="96.52" x2="182.88" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="182.88" y1="109.22" x2="223.52" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="223.52" y1="109.22" x2="223.52" y2="93.98" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="B" pin="OUT"/>
+<pinref part="IC1" gate="A" pin="OUT"/>
 <wire x1="223.52" y1="93.98" x2="218.44" y2="93.98" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="B" pin="BUFF/IN"/>
+<pinref part="IC1" gate="A" pin="BUFF/IN"/>
 <wire x1="218.44" y1="88.9" x2="223.52" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="223.52" y1="88.9" x2="223.52" y2="93.98" width="0.1524" layer="91"/>
 <junction x="223.52" y="93.98"/>
