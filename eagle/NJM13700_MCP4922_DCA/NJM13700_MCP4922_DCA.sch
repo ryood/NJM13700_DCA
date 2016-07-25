@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -19661,7 +19661,7 @@ Source: www.kingbright.com</description>
 <part name="AGND24" library="supply1" deviceset="AGND" device=""/>
 <part name="RCA1" library="mylib2" deviceset="ATD_RCA_JACK-DIP" device=""/>
 <part name="RCA2" library="mylib2" deviceset="ATD_RCA_JACK-DIP" device=""/>
-<part name="JP4" library="pinhead" deviceset="PINHD-1X4" device=""/>
+<part name="JP4" library="pinhead" deviceset="PINHD-1X4" device="" value="PWR_IN"/>
 <part name="LED1" library="led" deviceset="LED" device="3MM" value="Green"/>
 <part name="LED2" library="led" deviceset="LED" device="3MM" value="Green"/>
 <part name="R10" library="rcl" deviceset="R-EU_" device="0207/7" value="1k"/>
@@ -19889,10 +19889,6 @@ Source: www.kingbright.com</description>
 <wire x1="182.88" y1="78.74" x2="182.88" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="231.14" y1="78.74" x2="231.14" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="231.14" y1="81.28" x2="231.14" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="231.14" y1="81.28" x2="238.76" y2="81.28" width="0.1524" layer="91"/>
-<junction x="231.14" y="81.28"/>
 <pinref part="C5" gate="G$1" pin="1"/>
 <wire x1="238.76" y1="81.28" x2="238.76" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="C4" gate="G$1" pin="2"/>
@@ -19903,10 +19899,6 @@ Source: www.kingbright.com</description>
 <wire x1="251.46" y1="81.28" x2="251.46" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="231.14" y1="48.26" x2="231.14" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="231.14" y1="45.72" x2="231.14" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="231.14" y1="45.72" x2="238.76" y2="45.72" width="0.1524" layer="91"/>
-<junction x="231.14" y="45.72"/>
 <pinref part="C6" gate="G$1" pin="2"/>
 <wire x1="238.76" y1="45.72" x2="238.76" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="C7" gate="G$1" pin="1"/>
