@@ -1,0 +1,43 @@
+Partlist exported from D:/Users/gizmo/Documents/Develop/NJM13700_DCA/eagle/NJM13700_MCP4922_DCA/NJM13700_MCP4922_DCA.sch at 2016/07/25 16:31:31
+
+Part Value            Device               Package          Description                                                                      TP_SIGNAL_NAME
+C1   10uF             CPOL-EUE5-6          E5-6             POLARIZED CAPACITOR, European symbol                                                           
+C2   10uF             CPOL-EUE2.5-6        E2,5-6           POLARIZED CAPACITOR, European symbol                                                           
+C3   1uF              C-EU050-024X044      C050-024X044     CAPACITOR, European symbol                                                                     
+C4   0.1uF            C-EU025-024X044      C025-024X044     CAPACITOR, European symbol                                                                     
+C5   0.1uF            C-EU025-024X044      C025-024X044     CAPACITOR, European symbol                                                                     
+C6   0.1uF            C-EU025-024X044      C025-024X044     CAPACITOR, European symbol                                                                     
+C7   0.1uF            C-EU025-024X044      C025-024X044     CAPACITOR, European symbol                                                                     
+C8   220uF            CPOL-EUE5-8.5        E5-8,5           POLARIZED CAPACITOR, European symbol                                                           
+C9   0.1uF            C-EU025-024X044      C025-024X044     CAPACITOR, European symbol                                                                     
+C10  220uF            CPOL-EUE5-8.5        E5-8,5           POLARIZED CAPACITOR, European symbol                                                           
+C11  0.1uF            C-EU025-024X044      C025-024X044     CAPACITOR, European symbol                                                                     
+C12  220uF            CPOL-EUE5-8.5        E5-8,5           POLARIZED CAPACITOR, European symbol                                                           
+C13  0.1uF            C-EU025-024X044      C025-024X044     CAPACITOR, European symbol                                                                     
+D1   1S4              SCHOTTKY-DIODEDO35-7 DO35-7           Schottky Diode                                                                                 
+IC1  LM13600AN        LM13600AN            DIL16            Dual Operational Transconductance Amplifiers with Linearizing Diodes and Buffers               
+IC2  MCP4922          DIL14                DIL14            Dual In Line / Socket                                                                          
+IC3  TL072            LM4558N              DIL08            OP AMP                                                                                         
+IC4  TA480335         78XXS                78XXS            VOLTAGE REGULATOR                                                                              
+JP1  IN               PINHD-1X2            1X02             PIN HEADER                                                                                     
+JP2  OUT              PINHD-1X2            1X02             PIN HEADER                                                                                     
+JP3  SPI              PINHD-1X5            1X05             PIN HEADER                                                                                     
+JP4                   PINHD-1X4            1X04             PIN HEADER                                                                                     
+JP5  SPI2             PINHD-1X3            1X03             PIN HEADER                                                                                     
+JP6  SPI3             PINHD-1X3            1X03             PIN HEADER                                                                                     
+JP7  POUT1            PINHD-1X4            1X04             PIN HEADER                                                                                     
+JP8  POUT2            PINHD-1X4            1X04             PIN HEADER                                                                                     
+JP9  POUT3            PINHD-1X4            1X04             PIN HEADER                                                                                     
+R1   10k              TRIM_EU-B25P         B25P             POTENTIOMETER                                                                                  
+R2   22k              R-EU_0207/7          0207/7           RESISTOR, European symbol                                                                      
+R3   22k              R-EU_0207/7          0207/7           RESISTOR, European symbol                                                                      
+R4   33k              R-EU_0207/7          0207/7           RESISTOR, European symbol                                                                      
+R5   4.7k             R-EU_0207/7          0207/7           RESISTOR, European symbol                                                                      
+R6   10k              TRIM_EU-B25P         B25P             POTENTIOMETER                                                                                  
+R7   18k              R-EU_0207/7          0207/7           RESISTOR, European symbol                                                                      
+R8   2.2k             R-EU_0207/7          0207/7           RESISTOR, European symbol                                                                      
+R9   100k             R-EU_0207/7          0207/7           RESISTOR, European symbol                                                                      
+RCA1 ATD_RCA_JACK-DIP ATD_RCA_JACK-DIP     ATD_RCA_JACK_DIP                                                                                                
+RCA2 ATD_RCA_JACK-DIP ATD_RCA_JACK-DIP     ATD_RCA_JACK_DIP                                                                                                
+T1   2SA1015          -PNP-TO92-ECB        TO92-ECB         PNP Transistror                                                                                
+TP1  TPPAD1-13        TPPAD1-13            P1-13            Test pad                                                                                       
